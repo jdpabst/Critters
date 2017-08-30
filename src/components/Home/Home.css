@@ -11,6 +11,13 @@
     background-size: cover;
     z-index: 1;
 }
-
+#phone_content{
+    height: 544px;
+    width: 309px;
+    border: 1px solid lime;
+    position: absolute;
+    top: 106px;
+    left: 440px;
+}
 
 /* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rhKYB7-DGKbi_xsVJnAUCidal3zUWBtYsirfE9tOuz0gOEin */
