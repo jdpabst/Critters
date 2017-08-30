@@ -32,3 +32,10 @@
     background: -moz-linear-gradient(#E02D3D, #FCC72E); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#E02D3D, #FCC72E); /* Standard syntax */
 }
+#phone_content h1{
+    font-size: 30px;
+    height: 70px;
+    width: 140px;
+    border: 1px dotted;
+    z-index: 10;
+}
