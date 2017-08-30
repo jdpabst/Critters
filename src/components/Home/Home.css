@@ -18,8 +18,6 @@
     position: absolute;
     top: 106px;
     left: 440px;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rhKYB7-DGKbi_xsVJnAUCidal3zUWBtYsirfE9tOuz0gOEin") center no-repeat;
-    background-size: cover;
 }
 #transparent_overlay{
     height: 100%;
@@ -31,4 +29,11 @@
     background: -o-linear-gradient(bottom right, #421C39, #7BD9A3); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #421C39, #7BD9A3); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #421C39, #FFD33D); /* Standard syntax */
+}
+#img_overlay{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rhKYB7-DGKbi_xsVJnAUCidal3zUWBtYsirfE9tOuz0gOEin") center no-repeat;
+    background-size: cover;
 }
