@@ -8,8 +8,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-
-          { router }
+        <p>home area</p>
 
       </div>
     );
