@@ -8,7 +8,7 @@
 #content_holder{
     height: 746px;
     width: 400px;
-    border: 1px dotted lime;
+    /* border: 1px dotted lime; */
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -35,11 +35,12 @@
     width: 100%;
     z-index: 2;
     opacity: 0.92;
-    background: #E02D3D; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#E02D3D, #FCC72E); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#E02D3D, #FCC72E); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#E02D3D, #FCC72E); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#533651, #FD9266); /* Standard syntax */
+    background: #547980; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #9DE0AD, #45ADA8, #547980 , #594F4F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #9DE0AD, #45ADA8, #547980 , #594F4F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #9DE0AD, #45ADA8, #547980 , #594F4F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #9DE0AD, #45ADA8, #547980 , #594F4F);
+    /* background: linear-gradient(#99B898, #FECEAB, #FF847C, #E8495E, #2A363B) */
 }
 #phone_content h1{
     font-size: 75px;
