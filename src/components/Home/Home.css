@@ -18,17 +18,17 @@
     position: absolute;
     top: 106px;
     left: 440px;
-    background: url("http://img.sj33.cn/uploads/allimg/201504/7-15041R224545H.png") center no-repeat;
+    background: url("https://t3.ftcdn.net/jpg/00/94/74/14/240_F_94741449_r4J9d96y0snqwMvQ0jDkzUF7ekV51Ayi.jpg") center no-repeat;
     background-size: cover;
 }
 #transparent_overlay{
     height: 100%;
     width: 100%;
     z-index: 2;
-    opacity: 0.9;
-    background: #421C39; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#421C39, #7BD9A3); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#421C39, #7BD9A3); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#421C39, #7BD9A3); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#0C2520, #509D8E); /* Standard syntax */
+    opacity: 0.92;
+    background: #E02D3D; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E02D3D, #FCC72E); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E02D3D, #FCC72E); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E02D3D, #FCC72E); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E02D3D, #FCC72E); /* Standard syntax */
 }
