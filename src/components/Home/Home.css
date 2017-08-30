@@ -14,10 +14,21 @@
 #phone_content{
     height: 544px;
     width: 309px;
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
     position: absolute;
     top: 106px;
     left: 440px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rhKYB7-DGKbi_xsVJnAUCidal3zUWBtYsirfE9tOuz0gOEin") center no-repeat;
+    background-size: cover;
 }
-
-/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rhKYB7-DGKbi_xsVJnAUCidal3zUWBtYsirfE9tOuz0gOEin */
+#transparent_overlay{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 0.8;
+    background: #421C39; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #421C39, #7BD9A3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #421C39, #7BD9A3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #421C39, #7BD9A3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #421C39, #FFD33D); /* Standard syntax */
+}
