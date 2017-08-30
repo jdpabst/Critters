@@ -36,10 +36,10 @@
     z-index: 2;
     opacity: 0.92;
     background: #547980; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient( #9DE0AD, #45ADA8, #547980 , #594F4F); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( #9DE0AD, #45ADA8, #547980 , #594F4F); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient( #9DE0AD, #45ADA8, #547980 , #594F4F); /* For Firefox 3.6 to 15 */
-    background: linear-gradient( #9DE0AD, #45ADA8, #547980 , #594F4F);
+    background: -webkit-linear-gradient(#547980 , #594F4F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#547980 , #594F4F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#547980 , #594F4F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#547980 , #594F4F);
     /* background: linear-gradient(#99B898, #FECEAB, #FF847C, #E8495E, #2A363B) */
 }
 #phone_content h1{
