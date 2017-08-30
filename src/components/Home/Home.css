@@ -30,7 +30,7 @@
     background: -webkit-linear-gradient(#E02D3D, #FCC72E); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#E02D3D, #FCC72E); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#E02D3D, #FCC72E); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#E02D3D, #FCC72E); /* Standard syntax */
+    background: linear-gradient(#533651, #FD9266); /* Standard syntax */
 }
 #phone_content h1{
     font-size: 75px;
