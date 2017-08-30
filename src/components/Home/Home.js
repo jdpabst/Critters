@@ -9,6 +9,8 @@ class Home extends Component {
     return (
       <div className="home">
       <img src="http://www.xiriux.net/wp-content/uploads/android.png" id='phone_img'/>
+      <h1>Critter Tracker</h1>
+      <p>LOGIN</p>
       </div>
     );
   }
