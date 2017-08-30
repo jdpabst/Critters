@@ -14,6 +14,7 @@ class Home extends Component {
             <div id="transparent_overlay"></div>
             <h1>Critter Tracker</h1>
             <div id="login_bttn">LOGIN</div>
+            <p>&copy; jdpabst.com</p>
           </div>
         </div>
       </div>
