@@ -41,17 +41,19 @@
     position: absolute;
     top: 110px;
     left: calc(50% - 117.5px);
-    /* font-family: 'Open Sans', sans-serif; */
     color: white;
     font-family: 'Cabin Sketch', cursive;
 }
 #login_bttn{
     height: 50px;
-    width: 200px;
+    width: 250px;
     border-radius: 10px;
     background: white;
     position: absolute;
     top: 370px;
-    left: calc(50% - 100px);
-    opacity: 0.3;
+    left: calc(50% - 125px);
+    line-height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
