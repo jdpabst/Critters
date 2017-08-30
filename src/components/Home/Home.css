@@ -1,11 +1,14 @@
 .home{
     width: 100%;
     position: relative;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rhKYB7-DGKbi_xsVJnAUCidal3zUWBtYsirfE9tOuz0gOEin") center repeat;
+    
 }
 #phone_img{
     height: 746px;
     background: url("http://www.xiriux.net/wp-content/uploads/android.png") center no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
 
