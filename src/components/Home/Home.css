@@ -1,8 +1,9 @@
 .home{
     width: 100%;
     position: relative;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rhKYB7-DGKbi_xsVJnAUCidal3zUWBtYsirfE9tOuz0gOEin") center repeat;
-    
+    background-color: rgba(153, 253, 255, 0.64);
+    background: url("http://diysolarpanelsv.com/images/christmas-tree-forest-clipart-23.jpg") center no-repeat;    
+    background-size: cover;
 }
 #phone_img{
     height: 746px;
@@ -12,3 +13,4 @@
 }
 
 
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rhKYB7-DGKbi_xsVJnAUCidal3zUWBtYsirfE9tOuz0gOEin */
