@@ -33,14 +33,14 @@
     background: linear-gradient(#E02D3D, #FCC72E); /* Standard syntax */
 }
 #phone_content h1{
-    font-size: 60px;
+    font-size: 75px;
     height: 70px;
-    width: 140px;
-    border: 1px solid;
+    width: 235px;
+    /* border: 1px solid; */
     z-index: 10;
     position: absolute;
-    top: 50px;
-    left: calc(50% - 70px);
+    top: 110px;
+    left: calc(50% - 117.5px);
     /* font-family: 'Open Sans', sans-serif; */
     color: white;
     font-family: 'Cabin Sketch', cursive;
