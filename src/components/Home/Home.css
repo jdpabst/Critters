@@ -43,14 +43,14 @@
     /* background: linear-gradient(#99B898, #FECEAB, #FF847C, #E8495E, #2A363B) */
 }
 #phone_content h1{
-    font-size: 75px;
+    font-size: 90px;
     height: 70px;
-    width: 235px;
+    width: 286px;
     /* border: 1px solid; */
     z-index: 10;
     position: absolute;
-    top: 110px;
-    left: calc(50% - 117.5px);
+    top: 115px;
+    left: calc(50% - 143px);
     color: white;
     font-family: 'Cabin Sketch', cursive;
 }
@@ -60,7 +60,7 @@
     border-radius: 10px;
     background: white;
     position: absolute;
-    top: 405px;
+    top: 390px;
     left: calc(50% - 130px);
     line-height: 60px;
     font-family: 'Open Sans', sans-serif;
