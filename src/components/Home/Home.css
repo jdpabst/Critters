@@ -2,5 +2,10 @@
     width: 100%;
     position: relative;
 }
+#phone_img{
+    height: 500px;
+    background: url("http://www.xiriux.net/wp-content/uploads/android.png") center no-repeat;
+    background-size: cover;
+}
 
 

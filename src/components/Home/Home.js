@@ -8,7 +8,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <p>home area</p>
+        <div id="phone_img"></div>
 
       </div>
     );
