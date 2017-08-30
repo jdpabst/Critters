@@ -12,7 +12,7 @@ class Home extends Component {
       <div id="phone_content">
         <div id="transparent_overlay"></div>
         <h1>Critter Tracker</h1>
-        <div id="login-bttn">LOGIN</div>
+        <div id="login_bttn">LOGIN</div>
       </div>
       </div>
     );

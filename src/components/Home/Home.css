@@ -45,3 +45,13 @@
     color: white;
     font-family: 'Cabin Sketch', cursive;
 }
+#login_bttn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    top: 370px;
+    left: calc(50% - 100px);
+    opacity: 0.3;
+}
