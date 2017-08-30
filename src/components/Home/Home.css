@@ -55,15 +55,16 @@
     font-family: 'Cabin Sketch', cursive;
 }
 #login_bttn{
-    height: 50px;
-    width: 250px;
+    height: 60px;
+    width: 260px;
     border-radius: 10px;
     background: white;
     position: absolute;
-    top: 370px;
-    left: calc(50% - 125px);
-    line-height: 50px;
+    top: 405px;
+    left: calc(50% - 130px);
+    line-height: 60px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    font-family: 'Cabin Sketch', cursive;
+    /* font-weight: bold; */
+    font-size: 25px;
 }
