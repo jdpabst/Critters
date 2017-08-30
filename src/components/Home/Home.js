@@ -8,12 +8,14 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-      <img src="http://www.xiriux.net/wp-content/uploads/android.png" id='phone_img'/>
-      <div id="phone_content">
-        <div id="transparent_overlay"></div>
-        <h1>Critter Tracker</h1>
-        <div id="login_bttn">LOGIN</div>
-      </div>
+        <div id="content_holder">
+          <img src="http://www.xiriux.net/wp-content/uploads/android.png" id='phone_img'/>
+          <div id="phone_content">
+            <div id="transparent_overlay"></div>
+            <h1>Critter Tracker</h1>
+            <div id="login_bttn">LOGIN</div>
+          </div>
+        </div>
       </div>
     );
   }

@@ -5,11 +5,20 @@
     background: url("http://diysolarpanelsv.com/images/christmas-tree-forest-clipart-23.jpg") center no-repeat;    
     background-size: cover;
 }
+#content_holder{
+    height: 746px;
+    width: 400px;
+    border: 1px dotted lime;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
 #phone_img{
     height: 746px;
     background: url("http://www.xiriux.net/wp-content/uploads/android.png") center no-repeat;
     background-size: cover;
     z-index: 1;
+    margin-left: -63px;
 }
 #phone_content{
     height: 544px;
@@ -17,7 +26,7 @@
     /* border: 1px solid lime; */
     position: absolute;
     top: 106px;
-    left: 440px;
+    left: 460px;
     background: url("https://t3.ftcdn.net/jpg/00/94/74/14/240_F_94741449_r4J9d96y0snqwMvQ0jDkzUF7ekV51Ayi.jpg") center no-repeat;
     background-size: cover;
 }
