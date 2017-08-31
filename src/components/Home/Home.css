@@ -56,12 +56,12 @@
 }
 #login_bttn{
     height: 60px;
-    width: 240px;
-    border-radius: 10px;
+    width: 200px;
+    /* border-radius: 10px; */
     background: white;
     position: absolute;
     top: 350px;
-    left: calc(50% - 120px);
+    left: calc(50% - 100px);
     line-height: 60px;
     font-family: 'Open Sans', sans-serif;
     /* font-weight: bold; */
