@@ -97,8 +97,8 @@
 }
 #input{
     position: absolute;
-    top: 180px;
-    left: 37px;
+    top: 86px;
+    left: 0;
     z-index: 1;
     /* border: 1px solid; */
     height: 250px;
@@ -118,7 +118,7 @@
     letter-spacing: 0.5px;
 }
 #input textarea{
-    width: 100%;
+    width: 101.8%;;
     height: 50px;
     border: 1px solid #FA9D00;
     font-family: 'Open Sans', sans-serif;
@@ -133,7 +133,10 @@
     line-height: 50px;
     font-size: 25px;
     position: absolute;
-    top: 505px;
-    left: 95px;
+    top: 410px;
+    left: calc(50% - 75px);
     z-index: 1;
+}
+#add_bttn:hover{
+    cursor:pointer;
 }
