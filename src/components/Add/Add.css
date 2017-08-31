@@ -102,11 +102,12 @@
     z-index: 16;
     /* border: 1px solid; */
     height: 250px;
-    width: 258px;
+    width: 250px;
 }
 #input input{
     width: 100%;
     height: 50px;
     margin-bottom: 15px;
     border: 2px solid lime;
+    padding: 0 0 0 10px;
 }
