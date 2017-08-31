@@ -1,0 +1,13 @@
+.add{
+    width: 100%;
+    position: relative;
+    background-color: rgba(153, 252, 255, 0.64);
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/bf/a8/ab/bfa8ab9985b26fad14edebfc6a8cf030.jpg) center no-repeat;    
+    background-size: cover;
+}
+.add #phone_img{
+    height: 646px;
+    z-index: 1;
+    margin-left: -65px;
+    position: relative;
+}
