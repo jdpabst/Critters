@@ -5,6 +5,21 @@ import './Landing.css';
 
 
 class Landing extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      menu: false
+    }
+  }
+
+  handleMenu(){
+    if(!menu){
+      document.getElementById('menu').style.display = 'block'
+      this.setState({
+        menu: true
+      })
+    }
+  }
 
   render() {
     return (
@@ -16,7 +31,7 @@ class Landing extends Component {
                   <div className="ham"></div>
                   <div className='tracks'></div>
                 </header>
-                <div className="drop_down">
+                <div className="drop_down" id='menu'>
                   <div id="exit_menu"></div>
                   <ul>
                     <li>PROFILE</li>
