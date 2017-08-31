@@ -9,7 +9,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="landing">
-        Landing page
+        <div id="new_track">ADD NEW TRACK</div>
       </div>
     );
   }
