@@ -24,6 +24,17 @@
     position: absolute;
     left: 15px; 
     top: 10px;
+    filter: invert();
+}
+.ham:hover{
+    cursor: pointer;
+}
+.tracks{
+    background: url(http://www.totalpunishmentgaming.com/D&DTokens/scenery/animaltracks.png) center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    filter: invert();
 }
 #landing_content_holder{
     height: 746px;
