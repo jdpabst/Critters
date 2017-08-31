@@ -51,6 +51,7 @@ class Add extends Component {
                 <input type="input" placeholder="LONGITUDE"/>
                 <textarea placeholder="ADDITIONAL NOTES"/>
             </section>
+            <div id="add_bttn">+</div>
         </div>
       </div>
     );
