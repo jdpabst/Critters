@@ -11,6 +11,11 @@
     margin-left: -65px;
     position: relative;
 }
+.header{
+    height: 75px;
+    width: 100%;
+    background: #00909E;
+}
 #landing_content_holder{
     height: 746px;
     width: 400px;
