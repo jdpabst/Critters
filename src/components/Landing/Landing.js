@@ -14,7 +14,7 @@ class Landing extends Component {
   }
 
   handleMenu(){
-    if(!menu){
+    if(!this.state.menu){
       document.getElementById('menu').style.display = 'block'
       this.setState({
         menu: true
@@ -37,7 +37,7 @@ class Landing extends Component {
                   <div className="ham" onClick={ this.handleMenu }></div>
                   <div className='tracks'></div>
                 </header>
-                <div className="drop_down" id='menu'>
+                <div id='menu' className="drop_down">
                   <div id="exit_menu" onClick={ this.handleMenu }></div>
                   <ul>
                     <li>PROFILE</li>
