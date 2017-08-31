@@ -4,7 +4,27 @@ import './Add.css';
 
 
 class Add extends Component {
-
+    constructor(props){
+        super(props);
+        this.state = {
+          menu: false
+        }
+        this.handleMenu = this.handleMenu.bind(this);
+      }
+    
+      handleMenu(){
+        if(!this.state.menu){
+          document.getElementById('menu').style.display = 'block'
+          this.setState({
+            menu: true
+          })
+        } else {
+          document.getElementById('menu').style.display = 'none'
+          this.setState({
+            menu: false
+          })
+        }
+      }
   render() {
     return (
       <div className="add">
@@ -13,6 +33,7 @@ class Add extends Component {
         <div id="add_content">
             <header className="header">
               <div className="ham" onClick={ this.handleMenu }></div>
+              <div className="home_icon"></div>
             </header>
             <div id='menu' className="drop_down">
               <div id="exit_menu" onClick={ this.handleMenu }></div>
@@ -21,7 +42,7 @@ class Add extends Component {
                     <li>SETTINGS</li>
                     <li>ABOUT</li>
                 </ul>
-                </div>
+              </div>
             </div>
         </div>
       </div>
