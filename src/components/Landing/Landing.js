@@ -45,7 +45,7 @@ class Landing extends Component {
                   </ul>
                 </div>
                 <div id="profile"></div>
-                <div id="new_track">ADD CRITTER</div>
+                <div id="new_track"> + CRITTER</div>
             </div>
         </div>
       </div>
