@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import './Landing.css';
 
@@ -45,7 +45,7 @@ class Landing extends Component {
                   </ul>
                 </div>
                 <div id="profile"></div>
-                <Link to='/add'><div id="new_track"> + CRITTER</div></Link>
+                <Link to='/add' style={{textDecoration:'none', color:'white'}}><div id="new_track"> + CRITTER</div></Link>
             </div>
         </div>
       </div>
