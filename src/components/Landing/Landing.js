@@ -13,7 +13,7 @@ class Landing extends Component {
             <img src="http://www.xiriux.net/wp-content/uploads/android.png" id='phone_img'/>
             <div id="landing_content">
                 <header className="header">
-                  <div id="ham"></div>
+                  <div className ="ham"></div>
                 </header>
                 <div id="profile"></div>
                 <div id="new_track">ADD NEW TRACK</div>

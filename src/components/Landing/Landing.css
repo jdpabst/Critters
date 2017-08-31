@@ -16,6 +16,15 @@
     width: 100%;
     background: #ED0026;
 }
+.header .ham{
+    background: url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) center no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 15px; 
+    top: 10px;
+}
 #landing_content_holder{
     height: 746px;
     width: 400px;
@@ -38,13 +47,10 @@
     border-radius: 50%;
     background: url(https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-512.png) center no-repeat;
     background-size: cover;
-    position: absolute;
-    right: 20px;
-    top: 20px;
+    filter: invert();
 }
 
 #profile:hover{
-    filter: invert();
     cursor: pointer;
 }
 #logo:hover{
