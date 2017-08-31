@@ -35,12 +35,12 @@
     width: 100%;
     z-index: 2;
     opacity: 0.92;
-    background: #547980; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#547980 , #594F4F); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#547980 , #594F4F); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#547980 , #594F4F); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#547980 , #594F4F);
-    /* background: linear-gradient(#99B898, #FECEAB, #FF847C, #E8495E, #2A363B) */
+    background: #ED0026; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ED0026 , #FA9D00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ED0026 , #FA9D00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ED0026 , #FA9D00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ED0026 , #FA9D00);
+    /* background: linear-gradient(#B00051, #F68370) */
 }
 #phone_content h1{
     font-size: 80px;
@@ -69,7 +69,7 @@
 }
 #login_bttn:hover{
     cursor: pointer;
-    background: #D9D9D9;
+    filter: invert();
 }
 #phone_content p{
     font-size: 12px;

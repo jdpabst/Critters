@@ -10,7 +10,6 @@
     z-index: 1;
     margin-left: -65px;
     position: relative;
-    /* #547980 */
 }
 #landing_content_holder{
     height: 746px;
@@ -26,32 +25,8 @@
     position: absolute;
     top: 93px;
     left: 36px;
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/85/bf/f9/85bff9369b892692c4213556b8b0fb9a.png) center no-repeat;
-    background-size: cover;
     z-index: 10;
 }
-#landing_overlay{
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    opacity: 0.92;
-    background: #547980; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#547980 , #594F4F); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#547980 , #594F4F); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#547980 , #594F4F); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#C3DFE5 , #838080);
-}
-/* #logo{
-    background: url(http://freeiconbox.com/icon/256/21814.png) center no-repeat;
-    background-size: cover;
-    height: 40px;
-    border-radius: 50%;
-    width: 40px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    border: 1.5px solid black;
-} */
 #profile{
     height: 40px;
     width: 40px;
