@@ -14,20 +14,20 @@
     margin-right: auto;
 }
 #phone_img{
-    height: 746px;
+    height: 646px;
     background: url("http://www.xiriux.net/wp-content/uploads/android.png") center no-repeat;
     background-size: cover;
     z-index: 1;
     margin-left: -65px;
 }
 #phone_content{
-    height: 544px;
-    width: 309px;
+    height: 469px;
+    width: 267px;
     /* border: 1px solid lime; */
     position: absolute;
-    top: 106px;
-    left: 45px;
-    background: url("https://t3.ftcdn.net/jpg/00/94/74/14/240_F_94741449_r4J9d96y0snqwMvQ0jDkzUF7ekV51Ayi.jpg") center no-repeat;
+    top: 93px;
+    left: 36px;
+    background: url(https://t3.ftcdn.net/jpg/00/94/74/14/240_F_94741449_r4J9d96y0snqwMvQ0jDkzUF7ekV51Ayi.jpg) center no-repeat;
     background-size: cover;
 }
 #transparent_overlay{
@@ -43,29 +43,29 @@
     /* background: linear-gradient(#99B898, #FECEAB, #FF847C, #E8495E, #2A363B) */
 }
 #phone_content h1{
-    font-size: 90px;
+    font-size: 80px;
     height: 70px;
-    width: 286px;
+    width: 268px;
     /* border: 1px solid; */
     z-index: 10;
     position: absolute;
     top: 115px;
-    left: calc(50% - 143px);
+    left: calc(50% - 134px);
     color: white;
     font-family: 'Cabin Sketch', cursive;
 }
 #login_bttn{
     height: 60px;
-    width: 260px;
+    width: 240px;
     border-radius: 10px;
     background: white;
     position: absolute;
-    top: 390px;
-    left: calc(50% - 130px);
+    top: 350px;
+    left: calc(50% - 120px);
     line-height: 60px;
     font-family: 'Open Sans', sans-serif;
     /* font-weight: bold; */
-    font-size: 20px;
+    font-size: 18px;
 }
 #login_bttn:hover{
     cursor: pointer;
@@ -75,7 +75,7 @@
     font-size: 12px;
     width: 100px;
     position: absolute;
-    top: 527px;
+    top: 452px;
     left: calc(50% - 50px);
     font-family: 'Open Sans', sans-serif;
 }
