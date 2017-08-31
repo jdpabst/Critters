@@ -10,6 +10,7 @@ class Landing extends Component {
     this.state = {
       menu: false
     }
+    this.handleMenu = this.handleMenu.bind(this);
   }
 
   handleMenu(){
@@ -17,6 +18,11 @@ class Landing extends Component {
       document.getElementById('menu').style.display = 'block'
       this.setState({
         menu: true
+      })
+    } else {
+      document.getElementById('menu').style.display = 'none'
+      this.setState({
+        menu: false
       })
     }
   }
