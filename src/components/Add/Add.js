@@ -45,10 +45,10 @@ class Add extends Component {
               </div>
             </div>
             <section id="input">
-                <input type="input" placeholder="Species"/>
-                <input type="input" placeholder="Date Found"/>
-                <input type="input" placeholder="Latitude"/>
-                <input type="input" placeholder="Longitude"/>
+                <input type="input" placeholder="SPECIES"/>
+                <input type="input" placeholder="DATE FOUND"/>
+                <input type="input" placeholder="LATITUDE"/>
+                <input type="input" placeholder="LONGITUDE"/>
                 <textarea placeholder="ADDITIONAL NOTES"/>
             </section>
         </div>

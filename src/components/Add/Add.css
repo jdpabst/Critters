@@ -114,3 +114,8 @@
     border-right: none;
     padding: 0 0 0 10px;
 }
+#input textarea{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FA9D00;
+}
