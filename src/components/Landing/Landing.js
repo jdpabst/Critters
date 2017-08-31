@@ -35,13 +35,13 @@ class Landing extends Component {
             <div id="landing_content">
                 <header className="header">
                   <div className="ham" onClick={ this.handleMenu }></div>
-                  <div className='tracks'></div>
                 </header>
                 <div id='menu' className="drop_down">
                   <div id="exit_menu" onClick={ this.handleMenu }></div>
                   <ul>
                     <li>PROFILE</li>
                     <li>SETTINGS</li>
+                    <li>ABOUT</li>
                   </ul>
                 </div>
                 <div id="profile"></div>

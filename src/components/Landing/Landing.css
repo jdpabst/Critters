@@ -30,13 +30,6 @@
 .header .ham:hover{
     cursor: pointer;
 }
-.tracks{
-    background: url(http://www.totalpunishmentgaming.com/D&DTokens/scenery/animaltracks.png) center no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    filter: invert();
-}
 .drop_down{
     height: 469px;
     position: absolute;
@@ -45,6 +38,7 @@
     margin-left: -1px;
     background: linear-gradient(#ED0026 , #FA9D00);
     z-index: 15;
+    display: none;
 }
 .drop_down ul{
     height: 250px;
@@ -54,7 +48,6 @@
     font-size: 20px;
     line-height: 50px;
     letter-spacing: 1.5px;
-    display: none;
 }
 .drop_down ul li{
     font-family: 'Open Sans', sans-serif;
@@ -68,6 +61,9 @@
     left: 15px; 
     top: 10px;
     filter: invert();  
+}
+#exit_menu:hover{
+    cursor: pointer;
 }
 #landing_content_holder{
     height: 746px;
