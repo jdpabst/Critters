@@ -34,11 +34,11 @@ class Landing extends Component {
             <img src="http://www.xiriux.net/wp-content/uploads/android.png" id='phone_img'/>
             <div id="landing_content">
                 <header className="header">
-                  <div className="ham"></div>
+                  <div className="ham" onClick={ this.handleMenu }></div>
                   <div className='tracks'></div>
                 </header>
                 <div className="drop_down" id='menu'>
-                  <div id="exit_menu"></div>
+                  <div id="exit_menu" onClick={ this.handleMenu }></div>
                   <ul>
                     <li>PROFILE</li>
                     <li>SETTINGS</li>
