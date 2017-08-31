@@ -39,11 +39,11 @@
 }
 .drop_down{
     height: 469px;
-    position: fixed;
+    position: absolute;
     width: 269px;
     margin-top: -75px;
     margin-left: -1px;
-    background: #ED0026;
+    background: linear-gradient(#ED0026 , #FA9D00);
     z-index: 15;
 }
 .drop_down ul{
