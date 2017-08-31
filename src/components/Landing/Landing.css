@@ -1,0 +1,7 @@
+#phone_img{
+    height: 646px;
+    background: url("http://www.xiriux.net/wp-content/uploads/android.png") center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    margin-left: -65px;
+}
