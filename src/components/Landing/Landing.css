@@ -42,7 +42,7 @@
     background: linear-gradient(#C3DFE5 , #838080);
 }
 #logo{
-    background: url(http://diysolarpanelsv.com/images/bear-paw-print-clipart-8.gif) center no-repeat;
+    background: url(http://freeiconbox.com/icon/256/21814.png) center no-repeat;
     background-size: cover;
     height: 40px;
     border-radius: 50%;
@@ -50,12 +50,13 @@
     position: absolute;
     top: 20px;
     left: 20px;
+    border: 1.5px solid black;
 }
 #profile{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background: url(http://static.dnnsharp.com/icons/user77.png) center no-repeat;
+    background: url(https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-512.png) center no-repeat;
     background-size: cover;
     position: absolute;
     right: 20px;
