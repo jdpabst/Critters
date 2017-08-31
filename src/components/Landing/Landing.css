@@ -53,12 +53,14 @@
     z-index: 10;
 }
 #profile{
-    height: 40px;
-    width: 40px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
     border-radius: 50%;
     background: url(https://openclipart.org/image/2400px/svg_to_png/247324/abstract-user-flat-1.png) center no-repeat;
     background-size: cover;
-    filter: invert();
+    top: 100px;
+    right: 15px;
 }
 
 #profile:hover{
