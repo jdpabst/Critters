@@ -125,3 +125,11 @@
     font-size: 15px;
     letter-spacing: 0.5px;
 }
+#add_bttn{
+    height: 50px;
+    width: 150px;
+    background: #ED0026;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+}
