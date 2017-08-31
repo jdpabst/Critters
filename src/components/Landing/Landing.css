@@ -26,7 +26,7 @@
     top: 10px;
     filter: invert();
 }
-.ham:hover{
+.header .ham:hover{
     cursor: pointer;
 }
 .tracks{
