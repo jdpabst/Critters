@@ -14,7 +14,7 @@ class Home extends Component {
           <div id="phone_content">
             <div id="transparent_overlay"></div>
             <h1>Critter Tracker</h1>
-            <div id="login_bttn">LOGIN</div>
+            <Link to='/landing'><div id="login_bttn">LOGIN</div></Link>
             <p>&copy; jdpabst.com</p>
           </div>
         </div>
