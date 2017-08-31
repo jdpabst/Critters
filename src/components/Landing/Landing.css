@@ -1,7 +1,13 @@
-#phone_img{
-    height: 646px;
-    background: url("http://www.xiriux.net/wp-content/uploads/android.png") center no-repeat;
+.landing{
+    width: 100%;
+    position: relative;
+    background-color: rgba(153, 253, 255, 0.64);
+    background: url("http://diysolarpanelsv.com/images/christmas-tree-forest-clipart-23.jpg") center no-repeat;    
     background-size: cover;
+}
+.landing #phone_img{
+    height: 646px;
     z-index: 1;
     margin-left: -65px;
+    /* #547980 */
 }

@@ -10,7 +10,7 @@ export default (
     <Switch>
         
         <Route component={ Home } path='/' exact />
-        <Route comoponent={ Landing } path='/landing'/>
+        <Route component={ Landing } path='/landing'/>
 
     </Switch>
 )
