@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import './Add.css';
 
 
@@ -33,7 +33,7 @@ class Add extends Component {
         <div id="add_content">
             <header className="header">
               <div className="ham" onClick={ this.handleMenu }></div>
-              <div className="home_icon"></div>
+             <Link to='/landing' style={{textDecoration:'none', color:'white'}}><div className="home_icon"></div></Link>
             </header>
             <div id='menu' className="drop_down">
               <div id="exit_menu" onClick={ this.handleMenu }></div>
