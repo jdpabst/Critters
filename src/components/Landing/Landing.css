@@ -46,6 +46,18 @@
     background: #ED0026;
     z-index: 15;
 }
+.drop_down ul{
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+}
+.drop_down ul li{
+    font-family: 'Open Sans', sans-serif;
+}
 #exit_menu{
     background: url(https://www.shareicon.net/download/2016/10/25/847780_exit_512x512.png) center no-repeat;
     background-size: cover;  
