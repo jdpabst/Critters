@@ -20,8 +20,8 @@
 .header .ham{
     background: url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) center no-repeat;
     background-size: cover;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     position: absolute;
     left: 15px; 
     top: 10px;
@@ -58,8 +58,8 @@
 #exit_menu{
     background: url(https://www.shareicon.net/download/2016/10/25/847780_exit_512x512.png) center no-repeat;
     background-size: cover;  
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     position: absolute;
     left: 15px; 
     top: 10px;
