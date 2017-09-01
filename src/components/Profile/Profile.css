@@ -109,13 +109,13 @@
     /* Photo by Felix Russell-Saw on Unsplash */
 }
 #profile_pic{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background: url('./../../img/profile.jpg') center no-repeat;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -40px;
+    margin-top: -60px;
     /* Photo by Azrul Aziz on Unsplash */
 }
