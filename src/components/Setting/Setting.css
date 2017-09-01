@@ -102,12 +102,16 @@
     margin-top: 25px;
 }
 .ctrl{
-    height: 35px;
+    height: 45px;
     width: 100%;
     border-top: 1px solid lightgray;
-    margin-bottom: 10px;
     text-align: left;
     position: relative;
+}
+.ctrl:hover{
+    cursor: pointer;
+    height: 55px;
+    transition: all 0.5s;
 }
 .arrow{
     background: url(http://www.freeiconspng.com/uploads/camera-icon-png-camera-icon-png-transparent-16.png) center no-repeat;
