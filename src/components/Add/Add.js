@@ -39,7 +39,7 @@ class Add extends Component {
               <div id="exit_menu" onClick={ this.handleMenu }></div>
                 <ul>
                 <Link to='/profile' style={{textDecoration:'none', color:'white'}}><li>PROFILE</li></Link>
-                    <li>SETTINGS</li>
+                <Link to='/settings' style={{textDecoration:'none', color:'white'}}><li>SETTINGS</li></Link>
                     <li>ABOUT</li>
                 </ul>
               </div>
