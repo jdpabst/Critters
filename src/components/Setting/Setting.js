@@ -5,6 +5,27 @@ import './Setting.css';
 
 
 class Setting extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+          menu: false
+        }
+        this.handleMenu = this.handleMenu.bind(this);
+      }
+    
+      handleMenu(){
+        if(!this.state.menu){
+          document.getElementById('menu').style.display = 'block'
+          this.setState({
+            menu: true
+          })
+        } else {
+          document.getElementById('menu').style.display = 'none'
+          this.setState({
+            menu: false
+          })
+        }
+      }
 
   render() {
     return (
@@ -20,7 +41,7 @@ class Setting extends Component {
               <div id="exit_menu" onClick={ this.handleMenu }></div>
                 <ul>
                 <Link to='/profile' style={{textDecoration:'none', color:'white'}}><li>PROFILE</li></Link>
-                <Link to='/settings' style={{textDecoration:'none', color:'white'}}><li>SETTINGS</li></Link>
+                    <li style={{opacity: '0.5', cursor: 'default'}}>SETTINGS</li>
                     <li>ABOUT</li>
                 </ul>
               </div>
