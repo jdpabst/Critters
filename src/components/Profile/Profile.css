@@ -98,11 +98,24 @@
 #profile_imgs{
     height: 150px;
     width: 100%;
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
 }
 #main_bg{
-    background: url(https://www.weadirect.com/wp-content/uploads/2016/04/hiker-silhouettes.jpg) center no-repeat;
+    background: url('./../../img/bg2.jpg') center no-repeat;
     background-size: cover;
-    height: 80%;
+    height: 120px;
     width: 100%;
+    /* Photo by Brooke Cagle on Unsplash */
+    /* Photo by Felix Russell-Saw on Unsplash */
+}
+#profile_pic{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: url('./../../img/profile.jpg') center no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    /* Photo by Azrul Aziz on Unsplash */
 }
