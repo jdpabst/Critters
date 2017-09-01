@@ -43,6 +43,10 @@ class Profile extends Component {
                     <li>ABOUT</li>
                 </ul>
               </div>
+              <section id="profile_imgs">
+                  <div id='main_bg'></div>
+                  <div id="profile_pic"></div>
+              </section>
             </div>
         </div>
       </div>
