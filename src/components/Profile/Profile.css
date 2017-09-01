@@ -134,3 +134,9 @@
     line-height: 17px;
     font-family: 'Open Sans', sans-serif;
 }
+#recent_pics p{
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: 'Cabin Sketch', cursive;
+    margin-top: 15px;
+}

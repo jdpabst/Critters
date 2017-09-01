@@ -51,6 +51,12 @@ class Profile extends Component {
                   <h1>AZURE AZIZ</h1>
                   <p>Cat ipsum dolor sit amet, paw at your fat belly furball really tie. </p>
               </section>
+              <section id="recent_pics">
+                  <p>RECENT CRITTERS</p>
+                  <ul>
+                      <li></li>
+                  </ul>
+              </section>
             </div>
         </div>
       </div>
