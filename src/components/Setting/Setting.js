@@ -24,6 +24,20 @@ class Setting extends Component {
                     <li>ABOUT</li>
                 </ul>
               </div>
+              <section id="settings_select">
+                  <div id="bg_ctrl">
+                      <div className="arrow"></div>
+                      <p>Update Background Image</p>
+                  </div>
+                  <div id="profile_ctrl">
+                      <div className="arrow"></div>
+                      <p>Update Profile Image</p>
+                  </div>
+                  <div id="theme_ctrl">
+                      <div className="arrow"></div>
+                      <p>Change Theme</p>
+                  </div>
+              </section>
             </div>
         </div>
       </div>
