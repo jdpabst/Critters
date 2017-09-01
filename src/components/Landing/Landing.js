@@ -44,7 +44,7 @@ class Landing extends Component {
                     <li>ABOUT</li>
                   </ul>
                 </div>
-                <div id="profile"></div>
+                <Link to='/profile' style={{textDecoration:'none', color:'white'}}><div id="profile"></div></Link>
                 <Link to='/add' style={{textDecoration:'none', color:'white'}}><div id="new_track"> + CRITTER</div></Link>
             </div>
         </div>

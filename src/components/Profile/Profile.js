@@ -38,7 +38,7 @@ class Profile extends Component {
             <div id='menu' className="drop_down">
               <div id="exit_menu" onClick={ this.handleMenu }></div>
                 <ul>
-                <Link to='/profile' style={{textDecoration:'none', color:'white'}}><li>PROFILE</li></Link>
+                    <li style={{opacity: '0.5', cursor: 'default'}}>PROFILE</li>
                     <li>SETTINGS</li>
                     <li>ABOUT</li>
                 </ul>
