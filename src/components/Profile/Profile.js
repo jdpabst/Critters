@@ -47,6 +47,10 @@ class Profile extends Component {
                   <div id='main_bg'></div>
                   <div id="profile_pic"></div>
               </section>
+              <section id="info">
+                  <h1>AZURE AZIZ</h1>
+                  <p>Cat ipsum dolor sit amet, paw at your fat belly bleghbleghvomit my furball really tie. </p>
+              </section>
             </div>
         </div>
       </div>

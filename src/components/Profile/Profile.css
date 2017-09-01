@@ -119,3 +119,16 @@
     margin-top: -60px;
     /* Photo by Azrul Aziz on Unsplash */
 }
+#info{
+    margin-top: 15px;
+    width: 100%;
+}
+#info h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#info p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 17px;
+}
