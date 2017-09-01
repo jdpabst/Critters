@@ -1,0 +1,97 @@
+.profile{
+    width: 100%;
+    position: relative;
+    background-color: rgba(153, 252, 255, 0.64);
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/bf/a8/ab/bfa8ab9985b26fad14edebfc6a8cf030.jpg) center no-repeat;    
+    background-size: cover;
+}
+#profile_content_holder{
+    height: 746px;
+    width: 400px;
+    /* border: 1px dotted lime; */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile #phone_img{
+    height: 646px;
+    z-index: 1;
+    margin-left: -65px;
+    position: relative;
+}
+#profile_content{
+    height: 469px;
+    width: 267px;
+    position: absolute;
+    top: 93px;
+    left: 36px;
+    z-index: 1;
+    border: 1px solid;
+}
+.profile .header{
+    height: 75px;
+    width: 100%;
+    background: #ED0026;
+    position: relative;
+}
+.header .ham{
+    background: url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) center no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 15px; 
+    top: 20px;
+    filter: invert();
+}
+.header .ham:hover{
+    cursor: pointer;
+}
+.drop_down{
+    height: 469px;
+    position: absolute;
+    width: 269px;
+    margin-top: -75px;
+    margin-left: -1px;
+    background: linear-gradient(#ED0026 , #F5250D );
+    z-index: 15;
+    display: none;
+}
+.drop_down ul{
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    color: white;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+}
+.drop_down ul li{
+    font-family: 'Open Sans', sans-serif;
+}
+.drop_down ul li:hover{
+    cursor: pointer;
+}
+#exit_menu{
+    background: url(https://www.shareicon.net/download/2016/10/25/847780_exit_512x512.png) center no-repeat;
+    background-size: cover;  
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 15px; 
+    top: 20px;
+    filter: invert();  
+}
+#exit_menu:hover{
+    cursor: pointer;
+}
+.home_icon{
+    background: url(https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-512.png) center no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    filter: invert();
+    position: absolute;
+    right: 16px;
+    top: 19px;
+}
