@@ -110,7 +110,16 @@
     position: relative;
 }
 .arrow{
-    background: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png) center no-repeat;
+    background: url(http://www.freeiconspng.com/uploads/camera-icon-png-camera-icon-png-transparent-16.png) center no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.theme{
+    background: url(http://icons.iconarchive.com/icons/designcontest/outline/256/Palette-icon.png) center no-repeat;
     background-size: cover;
     height: 15px;
     width: 15px;
@@ -128,4 +137,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 12.5px;
     letter-spacing: 0.4px;
+}
+#theme_ctrl{
+    border-bottom: 1px solid lightgray;
 }

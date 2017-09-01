@@ -50,12 +50,13 @@ class Setting extends Component {
                       <div className="arrow"></div>
                       <p>Update Background Image</p>
                   </div>
+
                   <div className="ctrl" id="profile_ctrl">
                       <div className="arrow"></div>
                       <p>Update Profile Image</p>
                   </div>
                   <div className="ctrl" id="theme_ctrl">
-                      <div className="arrow"></div>
+                      <div className="theme"></div>
                       <p>Change Theme</p>
                   </div>
               </section>
