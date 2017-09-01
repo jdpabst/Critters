@@ -124,11 +124,13 @@
     width: 100%;
 }
 #info h1{
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
+    font-family: 'Cabin Sketch', cursive;
 }
 #info p{
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 17px;
+    font-family: 'Open Sans', sans-serif;
 }

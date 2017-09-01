@@ -49,7 +49,7 @@ class Profile extends Component {
               </section>
               <section id="info">
                   <h1>AZURE AZIZ</h1>
-                  <p>Cat ipsum dolor sit amet, paw at your fat belly bleghbleghvomit my furball really tie. </p>
+                  <p>Cat ipsum dolor sit amet, paw at your fat belly furball really tie. </p>
               </section>
             </div>
         </div>
