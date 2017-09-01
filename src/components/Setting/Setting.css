@@ -106,10 +106,20 @@
     width: 100%;
     border: 1px dotted lime;
     margin-bottom: 20px;
+    text-align: left;
+    position: relative;
 }
 .arrow{
     background: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png) center no-repeat;
     background-size: cover;
     height: 15px;
     width: 15px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.ctrl p{
+    margin-left: 40px;
+    margin-top: 15px;
+    text-transform: uppercase;
 }
