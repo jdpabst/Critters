@@ -152,3 +152,9 @@
     height: 150px;
     width: 150px;
 }
+#recent_pics li #pic2{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/67/7f/a5/677fa5e784f5f4afc7e315d21d85c783.jpg) center no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
