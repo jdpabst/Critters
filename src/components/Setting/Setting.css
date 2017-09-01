@@ -95,3 +95,15 @@
     right: 16px;
     top: 19px;
 }
+/* http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png */
+#settings_select{
+    width: 100%;
+    text-align: left;
+    border: 1px solid;
+    margin-top: 25px;
+}
+.ctrl{
+    height: 50px;
+    width: 100%;
+    border: 1px dotted lime;
+}

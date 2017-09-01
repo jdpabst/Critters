@@ -25,15 +25,15 @@ class Setting extends Component {
                 </ul>
               </div>
               <section id="settings_select">
-                  <div id="bg_ctrl">
+                  <div className="ctrl" id="bg_ctrl">
                       <div className="arrow"></div>
                       <p>Update Background Image</p>
                   </div>
-                  <div id="profile_ctrl">
+                  <div className="ctrl" id="profile_ctrl">
                       <div className="arrow"></div>
                       <p>Update Profile Image</p>
                   </div>
-                  <div id="theme_ctrl">
+                  <div className="ctrl" id="theme_ctrl">
                       <div className="arrow"></div>
                       <p>Change Theme</p>
                   </div>
