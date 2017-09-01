@@ -51,4 +51,4 @@ class Profile extends Component {
 }
 
 
-export default Add;
+export default Profile;
