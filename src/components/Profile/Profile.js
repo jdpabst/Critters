@@ -54,7 +54,8 @@ class Profile extends Component {
               <section id="recent_pics">
                   <p>RECENT CRITTERS</p>
                   <ul>
-                      <li></li>
+                      <li><div id="pic1"></div></li>
+                      <li><div id="pic2"></div></li>
                   </ul>
               </section>
             </div>
