@@ -95,7 +95,6 @@
     right: 16px;
     top: 19px;
 }
-/* http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png */
 #settings_select{
     width: 100%;
     text-align: left;
@@ -107,4 +106,10 @@
     width: 100%;
     border: 1px dotted lime;
     margin-bottom: 20px;
+}
+.arrow{
+    background: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png) center no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 15px;
 }
