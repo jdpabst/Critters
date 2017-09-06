@@ -76,7 +76,7 @@ class Setting extends Component {
                   </div>
               </section>
               <section id="bg_modal">
-                <div id="bg_modal_exit"></div>
+                <div id="bg_modal_exit">X</div>
                 <div id="bg_prev"></div>
                 <div id="bg_upload">UPDATE IMAGE</div>
               </section>
