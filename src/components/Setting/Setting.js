@@ -30,6 +30,7 @@ class Setting extends Component {
           })
         }
       }
+
       handleProfile(){
         if(!this.state.bg){
           document.getElementById('profile_modal').style.display = 'block'
@@ -43,6 +44,7 @@ class Setting extends Component {
           })
         }
       }
+      
       handleMenu(){
         if(!this.state.menu){
           document.getElementById('menu').style.display = 'block'
