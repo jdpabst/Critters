@@ -9,7 +9,8 @@ class Setting extends Component {
         super(props);
         this.state = {
           menu: false,
-          bg: false
+          bg: false,
+          profile: false,
         }
         this.handleMenu = this.handleMenu.bind(this);
         this.handleBG = this.handleBG.bind(this);
@@ -25,6 +26,19 @@ class Setting extends Component {
           document.getElementById('bg_modal').style.display = 'none'
           this.setState({
             bg: false
+          })
+        }
+      }
+      handleProfile(){
+        if(!this.state.bg){
+          document.getElementById('profile_modal').style.display = 'block'
+          this.setState({
+            profile: true
+          })
+        } else {
+          document.getElementById('profile_modal').style.display = 'none'
+          this.setState({
+            profile: false
           })
         }
       }
@@ -79,6 +93,11 @@ class Setting extends Component {
                 <div id="bg_modal_exit" onClick={ this.handleBG }>X</div>
                 <div id="bg_prev"></div>
                 <div id="bg_upload">UPDATE IMAGE</div>
+              </section>
+              <section id="profile_modal">
+                <div id="profile_modal_exit" onClick={ this.handleProfile }>X</div>
+                <div id="profile_prev"></div>
+                <div id="profile_upload">UPDATE IMAGE</div>
               </section>
             </div>
         </div>
