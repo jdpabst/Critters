@@ -60,6 +60,10 @@ class Setting extends Component {
                       <p>Change Theme</p>
                   </div>
               </section>
+              <section id="bg_modal">
+                <div id="bg_prev" style={{background: '', backgroundSize: 'cover' }}></div>
+                <div id="bg_upload">UPLOAD IMAGE</div>
+              </section>
             </div>
         </div>
       </div>

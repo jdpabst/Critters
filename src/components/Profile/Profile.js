@@ -7,7 +7,7 @@ class Profile extends Component {
     constructor(props){
         super(props);
         this.state = {
-          menu: false
+          menu: false,
         }
         this.handleMenu = this.handleMenu.bind(this);
       }

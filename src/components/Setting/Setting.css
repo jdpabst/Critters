@@ -110,8 +110,6 @@
 }
 .ctrl:hover{
     cursor: pointer;
-    height: 55px;
-    transition: all 0.5s;
 }
 .arrow{
     background: url(http://www.freeiconspng.com/uploads/camera-icon-png-camera-icon-png-transparent-16.png) center no-repeat;
@@ -144,4 +142,33 @@
 }
 #theme_ctrl{
     border-bottom: 1px solid lightgray;
+}
+
+/* //////////////////////////// MODALS //////////////////////// */
+#bg_modal{
+    height: 100%;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+}
+#bg_prev{
+    height: 200px;
+    width: 200px;
+    border: 1px dotted;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#bg_upload{
+    height: 50px;
+    width: 150px;
+    background: #ED0026;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    line-height: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.5px;
 }
