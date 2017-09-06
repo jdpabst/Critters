@@ -32,19 +32,19 @@ class Setting extends Component {
       }
 
       handleProfile(){
-        if(!this.state.bg){
-          document.getElementById('profile_modal').style.display = 'block'
+        if(!this.state.profile){
+          document.getElementById('profile_modal').style.display = 'block';
           this.setState({
             profile: true
           })
         } else {
-          document.getElementById('profile_modal').style.display = 'none'
+          document.getElementById('profile_modal').style.display = 'none';
           this.setState({
             profile: false
           })
         }
       }
-      
+
       handleMenu(){
         if(!this.state.menu){
           document.getElementById('menu').style.display = 'block'
