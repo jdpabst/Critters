@@ -8,11 +8,25 @@ class Setting extends Component {
     constructor(props){
         super(props);
         this.state = {
-          menu: false
+          menu: false,
+          bg: false
         }
         this.handleMenu = this.handleMenu.bind(this);
       }
     
+      handleBG(){
+        if(!this.state.bg){
+          document.getElementById('bg_modal').style.display = 'block'
+          this.setState({
+            bg: true
+          })
+        } else {
+          document.getElementById('bg_modal').style.display = 'none'
+          this.setState({
+            bg: false
+          })
+        }
+      }
       handleMenu(){
         if(!this.state.menu){
           document.getElementById('menu').style.display = 'block'
@@ -46,7 +60,7 @@ class Setting extends Component {
                 </ul>
               </div>
               <section id="settings_select">
-                  <div className="ctrl" id="bg_ctrl">
+                  <div className="ctrl" id="bg_ctrl" onClick={ this.handleBG }>
                       <div className="arrow"></div>
                       <p>Update Background Image</p>
                   </div>
