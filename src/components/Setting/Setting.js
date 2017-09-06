@@ -14,6 +14,7 @@ class Setting extends Component {
         }
         this.handleMenu = this.handleMenu.bind(this);
         this.handleBG = this.handleBG.bind(this);
+        this.handleProfile = this.handleProfile.bind(this);
       }
     
       handleBG(){
@@ -80,7 +81,7 @@ class Setting extends Component {
                       <p>Update Background Image</p>
                   </div>
 
-                  <div className="ctrl" id="profile_ctrl">
+                  <div className="ctrl" id="profile_ctrl" onClick={ this.handleProfile }>
                       <div className="arrow"></div>
                       <p>Update Profile Image</p>
                   </div>
