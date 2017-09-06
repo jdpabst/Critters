@@ -151,6 +151,7 @@
     background: white;
     position: absolute;
     top: 0;
+    display: none;
 }
 #bg_prev{
     height: 200px;
@@ -158,7 +159,7 @@
     border: 1px solid lightgray;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 90px;
     background: url('./../../img/bg2.jpg') center no-repeat;
     background-size: cover;
 }
