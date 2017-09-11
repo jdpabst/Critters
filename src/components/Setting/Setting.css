@@ -25,6 +25,7 @@
     position: absolute;
     top: 93px;
     left: 36px;
+    background: white;
     z-index: 1;
     border: 1px solid;
 }

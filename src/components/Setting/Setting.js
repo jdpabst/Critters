@@ -63,7 +63,7 @@ class Setting extends Component {
     return (
       <div className="setting">
         <div id="add_content_holder">
-        <img src="http://www.xiriux.net/wp-content/uploads/android.png" id='phone_img'/>
+        <img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwifp_-anp7WAhVJ3mMKHeOpC58QjRwIBw&url=https%3A%2F%2Fmockuphone.com%2Fiphone6spacegrey&psig=AFQjCNEiZblneWNDVQckVBKlioo3D1S8BA&ust=1505257205745500" id='phone_img'/>
         <div id="add_content">
             <header className="header">
               <div className="ham" onClick={ this.handleMenu }></div>
