@@ -55,7 +55,7 @@ class Add extends Component {
           latitude: '',
           longitude: '',
           additional: '',
-          pic: ''
+          pic: 'https://maxcdn.icons8.com/Share/icon/Dusk_Wired/Photo_Video//add_image1600.png'
         });
       }
   render() {

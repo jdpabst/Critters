@@ -129,6 +129,12 @@
     font-size: 10px;
     letter-spacing: 0.5px;
 }
+#input img{
+    height: 75px;
+    width: 75px;
+    border: 1px solid #FA9D00;
+    margin-top: 5px;
+}
 #add_bttn{
     height: 50px;
     width: 150px;
