@@ -8,23 +8,13 @@ var config = require('./config.js');
 const app = module.exports = express();
 
 app.use(bodyParser.json());
-app.use(session({
-  secret: config.secret,
-    resave: true,
-    saveUninitialized: false,
-    cookie:{
-      maxAge: (1000*60*60*24*14) //this is 14 days
-    }
-}))
 
-var conn = massive.connectSync({
-  connectionString: config.connectionString
-})
+massive(config.connection)
+.then( db => {
+  app.set('db', db)});
 
 
-app.use(express.static(__dirname + './../build'))
-app.set('db',conn);
-var db = app.get('db');
+app.use(express.static(__dirname + './../build'));
 
 var userController = require("./userController.js");
 
@@ -33,4 +23,4 @@ app.post('/api/add', userController.addSpecies);
 
 
 
-app.listen(config.port, console.log("you are now connected on " + config.port));
+app.listen(config.port, console.log("you are now connected on " + config.port))

@@ -37,6 +37,10 @@ class Add extends Component {
       resetInput(){
         axios.post('/api/add', {
           species: this.state.species,
+          datefound: 'test',
+          latitude: 'test',
+          longitude: 'test',
+          additional: 'test'
         });
         this.setState({
           species: '',
