@@ -130,23 +130,23 @@
     letter-spacing: 0.5px;
 }
 #input #img_holder{
-    height: 75px;
-    width: 75px;
+    height: 110px;
+    width: 110px;
     border: 1px solid #FA9D00;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 8px;
 }
 #add_bttn{
     height: 50px;
-    width: 150px;
+    width: 100%;
     background: #ED0026;
     color: white;
     line-height: 50px;
     font-size: 25px;
     position: absolute;
-    top: 410px;
-    left: calc(50% - 75px);
+    top: 417px;
     z-index: 1;
 }
 #add_bttn:hover{

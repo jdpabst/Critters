@@ -84,7 +84,7 @@ class Add extends Component {
                 <input type="input" placeholder="LONGITUDE" onChange={(e) => this.speciesSubmit(e.target.value, "longitude")} value={ this.state.longitude }/>
                 <textarea placeholder="ADDITIONAL NOTES" onChange={(e) => this.speciesSubmit(e.target.value, "additional")} value={ this.state.additional }/>
                 <input id="input_pic" type="input" placeholder="PICTURE URL" onChange={(e) => this.speciesSubmit(e.target.value, "pic")} value={ this.state.pic }/>
-                <div id="img_holder" style={{backgroundImage: { pic }, marginLeft: 'auto', marginRight: 'auto'}}></div>
+                <div id="img_holder" style={{backgroundImage: 'url(' + pic + ')', marginLeft: 'auto', marginRight: 'auto'}}></div>
             </section>
             <div id="add_bttn" onClick={ this.resetInput }>+</div>
             </div>
