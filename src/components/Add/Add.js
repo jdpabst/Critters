@@ -78,10 +78,12 @@ class Add extends Component {
               </div>
               <section id="input">
                 <input type="input" placeholder="SPECIES" onChange={(e) => this.speciesSubmit(e.target.value, 'species')} value={ this.state.species }/>
-                <input type="input" placeholder="DATE FOUND" onChange={(e) => this.speciesSubmit(e.target.value, "datefound")} value={ this.state.datefound }/>
+                <input type="input" placeholder="DATE FOUND (MM/DD/YYYY)" onChange={(e) => this.speciesSubmit(e.target.value, "datefound")} value={ this.state.datefound }/>
                 <input type="input" placeholder="LATITUDE" onChange={(e) => this.speciesSubmit(e.target.value, "latitude")} value={ this.state.latitude }/>
                 <input type="input" placeholder="LONGITUDE" onChange={(e) => this.speciesSubmit(e.target.value, "longitude")} value={ this.state.longitude }/>
                 <textarea placeholder="ADDITIONAL NOTES" onChange={(e) => this.speciesSubmit(e.target.value, "additional")} value={ this.state.additional }/>
+                <input type="input" placeholder="PICTURE URL" onChange={(e) => this.speciesSubmit(e.target.value, "pic")} value={ this.state.pic }/>
+                <img src={ this.state.pic }/>
             </section>
             <div id="add_bttn" onClick={ this.resetInput }>+</div>
             </div>
