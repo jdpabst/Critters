@@ -1,3 +1,3 @@
 INSERT INTO species
 (species, datefound, latitude, longitude, additional)
-VALUES ('cat', $2, $3, $4, $5)
+VALUES ($1, $2, $3, $4, $5)
