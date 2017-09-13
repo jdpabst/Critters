@@ -14,7 +14,7 @@ class Add extends Component {
           latitude: '',
           longitude: '',
           additional: '',
-          pic: 'https://www.shareicon.net/download/2015/12/05/682832_arrow.svg',
+          pic: '',
 
         }
         this.handleMenu = this.handleMenu.bind(this);
