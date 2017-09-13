@@ -38,7 +38,6 @@ class Add extends Component {
         let state = Object.assign({}, this.state);
         state[type] = value;
         this.setState(state);
-        console.log(state);
       }
       resetInput(){
         axios.post('/api/add', {
