@@ -35,9 +35,10 @@ class Add extends Component {
         }
       }
       speciesSubmit(value, type){
-        let state = this.state;
+        let state = Object.assign({}, this.state);
         state[type] = value;
-        this.state = Object.assign({}, this.state, state)
+        this.setState(state);
+        console.log(state);
       }
       resetInput(){
         axios.post('/api/add', {
