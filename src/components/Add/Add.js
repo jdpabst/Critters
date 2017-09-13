@@ -9,7 +9,12 @@ class Add extends Component {
         super(props);
         this.state = {
           menu: false,
-          species: ''
+          species: '',
+          datefound: '',
+          latitude: '',
+          longitude: '',
+          additional: ''
+
         }
         this.handleMenu = this.handleMenu.bind(this);
         this.speciesSubmit = this.speciesSubmit.bind(this);
@@ -29,21 +34,25 @@ class Add extends Component {
           })
         }
       }
-      speciesSubmit(value){
-        this.setState({
-          species: value
-        })
+      speciesSubmit(value, type){
+        let state = this.state;
+        state[type] = value;
+        this.state = Object.assign({}, this.state, state)
       }
       resetInput(){
         axios.post('/api/add', {
           species: this.state.species,
-          datefound: 'test',
-          latitude: 'test',
-          longitude: 'test',
-          additional: 'test'
+          datefound: this.state.datefound,
+          latitude: this.state.latitude,
+          longitude: this.state.longitude,
+          additional: this.state.additional
         });
         this.setState({
           species: '',
+          datefound: '',
+          latitude: '',
+          longitude: '',
+          additional: ''
         });
       }
   render() {
@@ -65,11 +74,11 @@ class Add extends Component {
                 </ul>
               </div>
               <section id="input">
-                <input type="input" placeholder="SPECIES" onChange={(e) => this.speciesSubmit(e.target.value)} value={ this.state.species }/>
-                <input type="input" placeholder="DATE FOUND"/>
-                <input type="input" placeholder="LATITUDE"/>
-                <input type="input" placeholder="LONGITUDE"/>
-                <textarea placeholder="ADDITIONAL NOTES"/>
+                <input type="input" placeholder="SPECIES" onChange={(e) => this.speciesSubmit(e.target.value, 'species')} value={ this.state.species }/>
+                <input type="input" placeholder="DATE FOUND" onChange={(e) => this.speciesSubmit(e.target.value, "datefound")} value={ this.state.datefound }/>
+                <input type="input" placeholder="LATITUDE" onChange={(e) => this.speciesSubmit(e.target.value, "latitude")} value={ this.state.latitude }/>
+                <input type="input" placeholder="LONGITUDE" onChange={(e) => this.speciesSubmit(e.target.value, "longitude")} value={ this.state.longitude }/>
+                <textarea placeholder="ADDITIONAL NOTES" onChange={(e) => this.speciesSubmit(e.target.value, "additional")} value={ this.state.additional }/>
             </section>
             <div id="add_bttn" onClick={ this.resetInput }>+</div>
             </div>
