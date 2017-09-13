@@ -13,6 +13,7 @@ class Add extends Component {
           datefound: '',
           latitude: '',
           longitude: '',
+          pic: '',
           additional: ''
 
         }
@@ -45,14 +46,16 @@ class Add extends Component {
           datefound: this.state.datefound,
           latitude: this.state.latitude,
           longitude: this.state.longitude,
-          additional: this.state.additional
+          additional: this.state.additional,
+          pic: this.state.pic
         });
         this.setState({
           species: '',
           datefound: '',
           latitude: '',
           longitude: '',
-          additional: ''
+          additional: '',
+          pic: ''
         });
       }
   render() {
