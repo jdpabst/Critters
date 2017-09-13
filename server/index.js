@@ -29,7 +29,7 @@ var db = app.get('db');
 var userController = require("./userController.js");
 
 //////////Endpoints for the front end
-
+app.post('/api/add', userController.addSpecies);
 
 
 

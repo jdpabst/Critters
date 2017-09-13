@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 import './Add.css';
 
 
@@ -7,9 +8,12 @@ class Add extends Component {
     constructor(props){
         super(props);
         this.state = {
-          menu: false
+          menu: false,
+          species: ''
         }
         this.handleMenu = this.handleMenu.bind(this);
+        this.speciesSubmit = this.speciesSubmit.bind(this);
+        this.resetInput = this.resetInput.bind(this);
       }
     
       handleMenu(){
@@ -24,6 +28,19 @@ class Add extends Component {
             menu: false
           })
         }
+      }
+      speciesSubmit(value){
+        this.setState({
+          species: value
+        })
+      }
+      resetInput(){
+        axios.post('/api/add', {
+          species: this.state.species,
+        });
+        this.setState({
+          species: '',
+        });
       }
   render() {
     return (
@@ -44,13 +61,13 @@ class Add extends Component {
                 </ul>
               </div>
               <section id="input">
-                <input type="input" placeholder="SPECIES"/>
+                <input type="input" placeholder="SPECIES" onChange={(e) => this.speciesSubmit(e.target.value)} value={ this.state.species }/>
                 <input type="input" placeholder="DATE FOUND"/>
                 <input type="input" placeholder="LATITUDE"/>
                 <input type="input" placeholder="LONGITUDE"/>
                 <textarea placeholder="ADDITIONAL NOTES"/>
             </section>
-            <div id="add_bttn">+</div>
+            <div id="add_bttn" onClick={ this.resetInput }>+</div>
             </div>
         </div>
       </div>
